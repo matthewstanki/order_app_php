@@ -233,15 +233,20 @@ body.index .hero {
 /* footer */
 /* line 323, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
 body > footer {
-  background-color: #888888;
+  background-color: #494949;
   color: white;
-  padding: 1em 0; }
+  padding: 1em 0; 
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+ } 
   /* line 328, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
   body > footer ul.inline-list, body > footer p {
     margin-bottom: 0; }
   /* line 332, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
   body > footer a, body > footer p {
-    font-size: 0.8em; }
+    font-size: 1.0em; }
     /* line 335, /home/bitnami/projects/apachefriends-web/source-xampp-windows/stylesheets/all.scss */
     body > footer a, body > footer a:hover, body > footer a:active, body > footer a:visited, body > footer p, body > footer p:hover, body > footer p:active, body > footer p:visited {
       color: inherit; }
@@ -607,7 +612,8 @@ img {
 
 /* line 362, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
 .text-right {
-  text-align: right !important; }
+  text-align: right !important;
+color: gold; }
 
 /* line 363, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_global.scss */
 .text-center {
@@ -5253,7 +5259,7 @@ ul.pagination {
       .sub-nav dt a:hover,
       .sub-nav dd a:hover,
       .sub-nav li a:hover {
-        color: #0079a1; }
+        color: white; }
     /* line 87, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_sub-nav.scss */
     .sub-nav dt.active a,
     .sub-nav dd.active a,
@@ -5261,7 +5267,7 @@ ul.pagination {
       -webkit-border-radius: 3px;
       border-radius: 3px;
       font-weight: normal;
-      background: #008cba;
+      background: white;
       padding: 0.1875rem 1rem;
       cursor: default;
       color: white; }
@@ -5269,7 +5275,7 @@ ul.pagination {
       .sub-nav dt.active a:hover,
       .sub-nav dd.active a:hover,
       .sub-nav li.active a:hover {
-        background: #0079a1; }
+        background: white; }
 
 /* line 287, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_switch.scss */
 div.switch {

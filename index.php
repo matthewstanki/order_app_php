@@ -17,6 +17,7 @@ if(isset($_POST["add_to_cart"]))
                 'item_status'		=>	$_POST["status"]
 			);
 			$_SESSION["shopping_cart"][$count] = $item_array;
+			file_put_contents('orders.txt', implode(' | ', $item_array)."\r\n", FILE_APPEND | LOCK_EX);
 		}
 	}
 	else
@@ -48,6 +49,7 @@ if(isset($_GET["action"]))
 <html>
 	<head>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+		<link href="/dashboard/stylesheets/all.css" rel="stylesheet" type="text/css" />
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 	</head>
 	<body>
@@ -112,6 +114,34 @@ if(isset($_GET["action"]))
 		</div>
 	</div>
 	<br />
+	<footer>
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="row">
+          <div class="large-8 columns">
+            <ul class="social">
+              <li class="twitter"><a href="https://twitter.com/apachefriends">Follow us on Twitter</a></li>
+              <li class="facebook"><a href="https://www.facebook.com/we.are.xampp">Like us on Facebook</a></li>
+              <li class="google"><a href="https://plus.google.com/+xampp/posts">Add us to your G+ Circles</a></li>
+            </ul>
+
+            <ul class="inline-list">
+              <li><a href="https://www.apachefriends.org/blog.html">Blog</a></li>
+              <li><a href="https://www.apachefriends.org/privacy_policy.html">Privacy Policy</a></li>
+              <li>
+                <a target="_blank" href="http://www.fastly.com/">                    CDN provided by
+                  <img width="48" data-2x="/dashboard/images/fastly-logo@2x.png" src="/dashboard/images/fastly-logo.png" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="large-4 columns">
+            <a target="_blank" href="https://matthewstanki.github.io/"><p class="text-right">Copyright (c) 2022, Mateusz Stankiewicz</p></a>
+          </div>
+        </div>
+      </div>
+    </div>
 	</body>
+  </footer>
 </html>
 
