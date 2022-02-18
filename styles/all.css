@@ -2908,6 +2908,11 @@ ul#docs-list > li {
       margin: 0; }
 
 /* line 197, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
+.btn-secondary {
+    color: #fff;
+    background-color: #f70530;
+    border-color: #d11e1e;
+}
 button, .button, .sendgrid-subscription-widget input[type="submit"] {
   cursor: pointer;
   font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -2945,13 +2950,13 @@ button, .button, .sendgrid-subscription-widget input[type="submit"] {
   button.secondary, .button.secondary, .sendgrid-subscription-widget input.secondary[type="submit"] {
     background-color: #e7e7e7;
     border-color: #dadada;
-    color: #333333; }
+    color: #cc1010; }
     /* line 142, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .sendgrid-subscription-widget input.secondary[type="submit"]:hover, .button.secondary:focus, .sendgrid-subscription-widget input.secondary[type="submit"]:focus {
       background-color: #dadada; }
     /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
     button.secondary:hover, button.secondary:focus, .button.secondary:hover, .sendgrid-subscription-widget input.secondary[type="submit"]:hover, .button.secondary:focus, .sendgrid-subscription-widget input.secondary[type="submit"]:focus {
-      color: #333333; }
+      color: #c91313; }
   /* line 206, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
   button.success, .button.success, .sendgrid-subscription-widget input.success[type="submit"] {
     background-color: #5e8949;
@@ -3041,7 +3046,7 @@ button, .button, .sendgrid-subscription-widget input[type="submit"] {
     button.disabled.secondary, button[disabled].secondary, .button.disabled.secondary, .sendgrid-subscription-widget input.disabled.secondary[type="submit"], .button[disabled].secondary, .sendgrid-subscription-widget input[disabled].secondary[type="submit"] {
       background-color: #e7e7e7;
       border-color: #dadada;
-      color: #333333;
+      color: #c51111;
       cursor: default;
       opacity: 0.7;
       -webkit-box-shadow: none;
@@ -3051,7 +3056,7 @@ button, .button, .sendgrid-subscription-widget input[type="submit"] {
         background-color: #dadada; }
       /* line 148, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .sendgrid-subscription-widget input.disabled.secondary[type="submit"]:hover, .button.disabled.secondary:focus, .sendgrid-subscription-widget input.disabled.secondary[type="submit"]:focus, .button[disabled].secondary:hover, .sendgrid-subscription-widget input[disabled].secondary[type="submit"]:hover, .button[disabled].secondary:focus, .sendgrid-subscription-widget input[disabled].secondary[type="submit"]:focus {
-        color: #333333; }
+        color: #cc1616; }
       /* line 166, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_buttons.scss */
       button.disabled.secondary:hover, button.disabled.secondary:focus, button[disabled].secondary:hover, button[disabled].secondary:focus, .button.disabled.secondary:hover, .sendgrid-subscription-widget input.disabled.secondary[type="submit"]:hover, .button.disabled.secondary:focus, .sendgrid-subscription-widget input.disabled.secondary[type="submit"]:focus, .button[disabled].secondary:hover, .sendgrid-subscription-widget input[disabled].secondary[type="submit"]:hover, .button[disabled].secondary:focus, .sendgrid-subscription-widget input[disabled].secondary[type="submit"]:focus {
         background-color: #e7e7e7; }
@@ -3115,14 +3120,14 @@ button, .button, .sendgrid-subscription-widget input[type="submit"] {
     /* line 35, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group > * > button, .button-group > * .button, .button-group > * .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group > * input[type="submit"] {
       border-right: 1px solid;
-      border-color: rgba(255, 255, 255, 0.5); }
+      border-color: rgba(202, 19, 19, 0.5); }
     /* line 45, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group > *:first-child {
       margin-left: 0; }
   /* line 35, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
   .button-group.radius > * > button, .button-group.radius > * .button, .button-group.radius > * .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group.radius > * input[type="submit"] {
     border-right: 1px solid;
-    border-color: rgba(255, 255, 255, 0.5); }
+    border-color: rgba(190, 16, 16, 0.5); }
   /* line 63, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
   .button-group.radius > *:first-child, .button-group.radius > *:first-child > a, .button-group.radius > *:first-child > button, .button-group.radius > *:first-child > .button, .sendgrid-subscription-widget .button-group.radius > *:first-child > input[type="submit"] {
     -moz-border-radius-bottomleft: 3px;
@@ -3142,7 +3147,7 @@ button, .button, .sendgrid-subscription-widget input[type="submit"] {
   /* line 35, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
   .button-group.round > * > button, .button-group.round > * .button, .button-group.round > * .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group.round > * input[type="submit"] {
     border-right: 1px solid;
-    border-color: rgba(255, 255, 255, 0.5); }
+    border-color: rgba(180, 18, 18, 0.5); }
   /* line 63, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
   .button-group.round > *:first-child, .button-group.round > *:first-child > a, .button-group.round > *:first-child > button, .button-group.round > *:first-child > .button, .sendgrid-subscription-widget .button-group.round > *:first-child > input[type="submit"] {
     -moz-border-radius-bottomleft: 1000px;
@@ -3165,7 +3170,7 @@ button, .button, .sendgrid-subscription-widget input[type="submit"] {
     /* line 35, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.even-2 li > button, .button-group.even-2 li .button, .button-group.even-2 li .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group.even-2 li input[type="submit"] {
       border-right: 1px solid;
-      border-color: rgba(255, 255, 255, 0.5); }
+      border-color: rgba(187, 25, 25, 0.5); }
     /* line 73, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.even-2 li button, .button-group.even-2 li .button, .button-group.even-2 li .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group.even-2 li input[type="submit"] {
       width: 100%; }
@@ -3175,7 +3180,7 @@ button, .button, .sendgrid-subscription-widget input[type="submit"] {
     /* line 35, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.even-3 li > button, .button-group.even-3 li .button, .button-group.even-3 li .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group.even-3 li input[type="submit"] {
       border-right: 1px solid;
-      border-color: rgba(255, 255, 255, 0.5); }
+      border-color: rgba(172, 27, 27, 0.5); }
     /* line 73, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.even-3 li button, .button-group.even-3 li .button, .button-group.even-3 li .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group.even-3 li input[type="submit"] {
       width: 100%; }
@@ -3185,7 +3190,7 @@ button, .button, .sendgrid-subscription-widget input[type="submit"] {
     /* line 35, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.even-4 li > button, .button-group.even-4 li .button, .button-group.even-4 li .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group.even-4 li input[type="submit"] {
       border-right: 1px solid;
-      border-color: rgba(255, 255, 255, 0.5); }
+      border-color: rgba(170, 17, 17, 0.5); }
     /* line 73, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.even-4 li button, .button-group.even-4 li .button, .button-group.even-4 li .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group.even-4 li input[type="submit"] {
       width: 100%; }
@@ -3195,7 +3200,7 @@ button, .button, .sendgrid-subscription-widget input[type="submit"] {
     /* line 35, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.even-5 li > button, .button-group.even-5 li .button, .button-group.even-5 li .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group.even-5 li input[type="submit"] {
       border-right: 1px solid;
-      border-color: rgba(255, 255, 255, 0.5); }
+      border-color: rgba(187, 22, 22, 0.5); }
     /* line 73, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.even-5 li button, .button-group.even-5 li .button, .button-group.even-5 li .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group.even-5 li input[type="submit"] {
       width: 100%; }
@@ -3205,7 +3210,7 @@ button, .button, .sendgrid-subscription-widget input[type="submit"] {
     /* line 35, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.even-6 li > button, .button-group.even-6 li .button, .button-group.even-6 li .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group.even-6 li input[type="submit"] {
       border-right: 1px solid;
-      border-color: rgba(255, 255, 255, 0.5); }
+      border-color: rgba(199, 23, 23, 0.5); }
     /* line 73, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.even-6 li button, .button-group.even-6 li .button, .button-group.even-6 li .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group.even-6 li input[type="submit"] {
       width: 100%; }
@@ -3215,7 +3220,7 @@ button, .button, .sendgrid-subscription-widget input[type="submit"] {
     /* line 35, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.even-7 li > button, .button-group.even-7 li .button, .button-group.even-7 li .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group.even-7 li input[type="submit"] {
       border-right: 1px solid;
-      border-color: rgba(255, 255, 255, 0.5); }
+      border-color: rgba(153, 28, 28, 0.5); }
     /* line 73, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.even-7 li button, .button-group.even-7 li .button, .button-group.even-7 li .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group.even-7 li input[type="submit"] {
       width: 100%; }
@@ -3225,7 +3230,7 @@ button, .button, .sendgrid-subscription-widget input[type="submit"] {
     /* line 35, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.even-8 li > button, .button-group.even-8 li .button, .button-group.even-8 li .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group.even-8 li input[type="submit"] {
       border-right: 1px solid;
-      border-color: rgba(255, 255, 255, 0.5); }
+      border-color: rgba(192, 24, 24, 0.5); }
     /* line 73, /home/bitnami/projects/apachefriends-web/bower_components/foundation/scss/foundation/components/_button-groups.scss */
     .button-group.even-8 li button, .button-group.even-8 li .button, .button-group.even-8 li .sendgrid-subscription-widget input[type="submit"], .sendgrid-subscription-widget .button-group.even-8 li input[type="submit"] {
       width: 100%; }
