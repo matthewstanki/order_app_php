@@ -45,11 +45,11 @@ if (isset($_GET["action"])) {
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Order_app_php</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-	<link href="/styles/all.css" rel="stylesheet" type="text/css" />
+	<link href="styles/styles.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
-	<div class="container">
+<body class="d-flex flex-column">
+	<div class="container d-flex flex-grow-1">
 		<div class="row">
 			<div class="col">
 				<h2>Kliknij i zamów</h2>
@@ -93,7 +93,7 @@ if (isset($_GET["action"])) {
 									<td><?php echo $values["item_name"]; ?></td>
 									<td><?php echo $values["item_time"]; ?></td>
 									<td><?php echo $values["item_status"]; ?></td>
-									<td><a href="index.php?action=delete&id=<?php echo $values["item_id"]; ?>" class="btn btn-secondary btn-square-sm">X</a></td>
+									<td><a href="index.php?action=delete&id=<?php echo $values["item_id"]; ?>" class="btn btn-danger btn-sm">X</a></td>
 								</tr>
 							<?php
 							}
@@ -106,18 +106,18 @@ if (isset($_GET["action"])) {
 			</div>
 		</div>
 	</div>
-	</div>
 	<br />
 	<footer class="footer">
 		<div class="container">
-			<span>
+			<p class="m-0">
 				<a target="_blank" href="https://matthewstanki.github.io/">
-					<p class="text-right">Copyright (c) 2022, Mateusz Stankiewicz</p>
+					<span class="text-right">Copyright (c) 2022, Mateusz Stankiewicz</span>
 				</a>
-			</span>
+					</p>
 		</div>
 	</footer>
 	<!-- JavaScripts -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+
 </html>
